@@ -68,3 +68,24 @@ PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> git br
   main
 PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> 
 
+PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> git branch
+  feature1
+* main
+PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> git pull origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 964 bytes | 53.00 KiB/s, done.
+From https://github.com/imranjia/LocalRepoOfis
+ * branch            main       -> FETCH_HEAD
+   72f5e12..0eb9eb4  main       -> origin/main
+Updating 72f5e12..0eb9eb4
+Fast-forward
+ Readme.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\AhmedImran\My Drive\2025 Learn\ImranPython2025\LocalRepoOfis> 
+
